@@ -1,20 +1,19 @@
-#include <stdio.h> "main.h"
+#include "main.h"
 
 /**
- *  * main - Prints putchar as a message.
+ *  * main - print triple combos
  *   *
- *    * Return: Always 0 (Success)
+ *    * Description: print triple digit combos
+ *     *
+ *      * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
-
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
+	int i;
+	for (i=0; i<=8; ++i)
+   	{
+		_putchar(my_string[i]);
 	}
-	_putchar('\n');
+
 	return (0);
 }
