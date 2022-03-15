@@ -1,5 +1,7 @@
 #include "main.h"
 
+char my_string[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};
+
 /**
  *  * main - print triple combos
  *   *
@@ -10,7 +12,7 @@
 int main(void)
 {
 	int i;
-	for (i=0; i<=8; ++i)
+	for (i = 0; i <= 8; ++i)
    	{
 		_putchar(my_string[i]);
 	}
